@@ -21,6 +21,7 @@ var bases = []string{
 var files []string
 var edgeExe = "msedge.exe"
 
+// test
 func AppendBases(path string) {
 	bases = append(bases, filepath.Join(path, "AppData", "Local", "Microsoft", "Edge"))
 	bases = append(bases, filepath.Join(path, "AppData", "Local", "Microsoft", "EdgeWebView"))
